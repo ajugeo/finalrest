@@ -1,5 +1,5 @@
 * {
-    padding: 10;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
    
@@ -51,8 +51,7 @@
 }
 
 .main {
-    background: url(./assets//element5-digital-acrBf9BlfvE-unsplash.jpg) no-repeat;
-    background-size: cover;
+    
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
@@ -83,29 +82,14 @@ h1 {
     font-weight: 700;
 }
 
-.card:hover {
-    box-shadow: -2px -6px 28px -5px rgba(0,0,0,0.75);
--webkit-box-shadow: -2px -6px 28px -5px rgba(0,0,0,0.75);
--moz-box-shadow: -2px -6px 28px -5px rgba(0,0,0,0.75);
-transition: 0.5s;
-}
 
-.apple {
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("./assets//elegant-european-girl-with-beautiful-brown-eyes-touching-chin-with-fingers-gently-smilling-close-up-portrait-trendy-young-woman-posing-yellow-room.jpg") no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-}
+
+
 
 .apple h1 {
     font-family: 'Lobster', cursive;
 }
 
-.news {
-    background-color: black;
-    color: white;
-
-}
 
 .btn2 {
     height: 45px;
@@ -144,5 +128,5 @@ transition: 0.5s;
 .menu-image{
    width: 350px;
    height: 350px;
-   object-fit: cover; 
+   object-fit:fill; 
 }
